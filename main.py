@@ -68,7 +68,7 @@ QPushButton:pressed {
 
         self.pbYes = QPushButton(self.cWidget)
         self.pbYes.setText("SI")
-        self.pbYes.clicked.connect(self.on_yes_clicked)
+        self.pbYes.clicked.connect(self.yesClick)
 
         self.pbNo = noPushButton(self.cWidget)
         self.pbNo.setText("NO")
@@ -110,7 +110,7 @@ QPushButton:pressed {
         self.pbNo.move(newX,newY)
         
 
-    def on_yes_clicked(self):
+    def yesClick(self):
         self.lQuestion.setText("¡Sabía que dirías que sí! ❤️")
         self.pbNo.hide()
         self.pbYes.hide()
