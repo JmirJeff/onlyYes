@@ -114,6 +114,10 @@ QPushButton:pressed {
         self.lQuestion.setText("¡Sabía que dirías que sí! ❤️")
         self.pbNo.hide()
         self.pbYes.hide()
+        
+        self.lQuestion.adjustSize()
+        self._wQuestion = self.lQuestion.width()
+        self.lQuestion.move((self._wWindow - self._wQuestion)/2, self.lQuestion.y())
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

@@ -17,14 +17,16 @@ Esta aplicación presenta una interfaz gráfica con una pregunta simple: "¿Quie
 
 1. Asegúrate de tener Python instalado
 2. Instala PySide6:
-bash
+```bash
 pip install PySide6
+```
 
 ## Uso
 
 Ejecuta el programa con:
-bash
+```bash
 python main.py
+```
 
 ## Características
 
